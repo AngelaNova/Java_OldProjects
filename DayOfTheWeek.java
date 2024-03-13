@@ -1,10 +1,7 @@
 public class DayOfTheWeek {
 
  public static void main(String[] args) {
- 
-  /*
-  Angela Novakovic 260727217
-  */
+
  
   //Declaring the variables for year(y), month(m), day(d)
   int y,m,d;
@@ -16,7 +13,7 @@ public class DayOfTheWeek {
   int y0, m0, d0, x;
   
   
-  //Your code Starts here
+
   //Writing operation to calculate the day of the week. Giving values to the variables y0, x, m0 and d0.
       y0= ( y -(14-m)/12);
       x= (y0 + y0/4 - y0/100 + y0/400);
@@ -40,9 +37,6 @@ public class DayOfTheWeek {
   
        
    
-  
-  
-  //Your code Ends here
  }
 
 }
